@@ -4,7 +4,7 @@
 #print("Hello there,"+" " + fname + " " + lname)
 
 #first_name = 'nig'
-#last_name = 'ger'
+#last_name = 'ma'
 #full_name = first_name +" "+ last_name
 #print("Hello " + full_name)
 
@@ -79,7 +79,7 @@
 
 
 #print("Hello " +name)
-#print("Damn nigga you really "+str(age)+ " years old? shieet")
+#print("Damn homes you really "+str(age)+ " years old? shieet")
 #print("Damn homie you tall as shit at "+str(height)+ " cm")
 
 
@@ -122,7 +122,7 @@
 
 ##Slice demonstration to remove http:// and .com
 
-#ebsite1 = "http://google.com"
+#website1 = "http://google.com"
 #website2 = "http://wikipedia.com"
 
 #slice = slice(7,-4)
@@ -130,6 +130,19 @@
 #print(website1[slice])
 #print(website2[slice])
 
+
+### if statement = a block of code that will execute if True
+
+#age = int(input("How old are you?: "))
+
+#if age == 21:
+    #print("You can drink Alcohol in the states")
+#elif age >= 18:
+    #print("You are old")
+#elif age < 0:
+    #print("You are a fetus")
+#else:
+    #print("You are young")
 
 
 
