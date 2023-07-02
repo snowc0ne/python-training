@@ -99,3 +99,37 @@
 #print(math.sqrt(pie)) #calcuates the square root
 #print(max(pie,x,y,z)) #finds the largest in given variables
 #print(min(pie,x,y,z)) #finds the lowest in given variables
+
+## String Slicing in Python - create a substring by extracting elements from another string
+# indexing[] or slice()
+# [start:stop:step] - Step lets you set it so you can count more than 1 word after (every 2 letters)
+
+##Demonstrates indexing
+
+#name = "maciej"
+
+#first_name = name[0:3]
+#last_name = name[3:6]
+#funky_name = name[::2] # Counts every 2 letters. Leaving the :: blank means that the array starts at 0 and ends at the end of the string
+#reversed_name = name[::-1] # Counts backwards - printing your name backwards
+
+
+#print(first_name)
+#print(last_name)
+#print(funky_name)
+#print(reversed_name)
+
+
+##Slice demonstration to remove http:// and .com
+
+#ebsite1 = "http://google.com"
+#website2 = "http://wikipedia.com"
+
+#slice = slice(7,-4)
+
+#print(website1[slice])
+#print(website2[slice])
+
+
+
+
