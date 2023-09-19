@@ -143,6 +143,3 @@
     #print("You are a fetus")
 #else:
     #print("You are young")
-
-
-
